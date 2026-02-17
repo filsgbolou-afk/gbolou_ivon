@@ -1,6 +1,6 @@
 body{
     background-color: rgb(125, 125, 121);
-    font-size: 18px;
+    font-size: 12px;
 }
 .welcome{
     max-width:100% ;
@@ -82,6 +82,7 @@ h2{
 .footer{
     text-align: center;
 }
+
 
 
 
