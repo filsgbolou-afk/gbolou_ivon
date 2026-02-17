@@ -1,0 +1,84 @@
+body{
+    background-color: beige;
+}
+.welcome{
+    max-width:100% ;
+    width: 20000px;
+    position: relative;
+    margin: 10px auto;
+    height: 295px ;
+     background: linear-gradient(-45deg, #d14f4f, #6559d5, #38c8b0, #cb9f03, rgb(7, 161, 208), rgb(63, 34, 34));
+    background-size: 400% 400%;
+    animation: gradientMove 8s ease infinite;
+}
+.welcome img{
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    border-radius: 5%;
+    max-width: 47% ;
+    height: 220px ;  
+}
+@media(max-width:768px){
+    .welcome img{
+        width: 50%;
+    }
+}
+.main-title{
+    text-align: center;
+    color: rgb(63, 34, 34);
+}
+.mes-services{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(61, 55, 55);
+}
+h2{
+    text-align: center;  
+}
+
+.section_1 img{
+    width: 200px;
+    border-radius: 3%;
+    max-width: 100%;
+    height: auto;
+}
+
+.phone-link{
+    text-decoration: none;
+    color:#075319;
+    font-weight: bold;
+}
+.phone-link :hover{
+    color: #1e7e34;
+}
+.mon-email{
+    text-decoration: none;
+    color: rgb(3, 97, 99);
+
+}
+.facebook{
+    text-decoration: none;
+    color: rgb(4, 4, 98);
+}
+.whatsap{
+    text-decoration: none;
+    color: rgb(52, 52, 2);
+}
+.mes-contactes{
+    background: linear-gradient(-45deg, #ff6b6b, #8e83f4, #04dab6, #f9ca24, rgb(189, 219, 228));
+    background-size: 400% 400%;
+    animation: gradientMove 8s ease infinite;
+}
+@keyframes gradientMove{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+.slogant{
+    color: #ffd9d9;
+}
+.footer{
+    text-align: center;
+}
+
